@@ -45,4 +45,3 @@ Simply access to RDF description of dataset via URL example given above.
  
 ::
 
-
