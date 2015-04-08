@@ -1,10 +1,5 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-import ckan.model.package_relationship as PackageRelationship
-import requests
-import urllib, urllib2, httplib
-import re
-import json
 
 # Use this function in custom template to get dataset relationships
 # It will enable us to represent them semantically
