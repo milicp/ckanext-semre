@@ -1,0 +1,4 @@
+
+        [ckan.plugins]
+        semre=ckanext.semre.plugin:SemRePlugin
+    

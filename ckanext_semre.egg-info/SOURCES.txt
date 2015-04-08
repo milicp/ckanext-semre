@@ -1,0 +1,11 @@
+setup.py
+ckanext/__init__.py
+ckanext/semre/__init__.py
+ckanext/semre/plugin.py
+ckanext_semre.egg-info/PKG-INFO
+ckanext_semre.egg-info/SOURCES.txt
+ckanext_semre.egg-info/dependency_links.txt
+ckanext_semre.egg-info/entry_points.txt
+ckanext_semre.egg-info/namespace_packages.txt
+ckanext_semre.egg-info/not-zip-safe
+ckanext_semre.egg-info/top_level.txt
