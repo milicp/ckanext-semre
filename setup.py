@@ -6,7 +6,7 @@ version = '0.1'
 setup(
 	name='ckanext-semre',
 	version=version,
-	description="Semantic representation of CKAN dataset relationships",
+	description="CKAN extension for RDF description of dataset relationships",
 	long_description="""\
 	""",
 	classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
