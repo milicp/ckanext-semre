@@ -1,5 +1,6 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
+import ckan.lib.helpers as helpers
 
 # Use this function in custom template to get dataset relationships
 # It will enable us to represent them semantically
@@ -12,6 +13,7 @@ def semre_create(datasetName):
     
     # return results as dictionary
     return datasetRelationships
+
 
 # Class which implements interface ITemplateHelpers to make our extension function available
 # in CKAN template and interface IConfigurer to tell CKAN that our extension provides
@@ -30,4 +32,5 @@ class SemRePlugin(plugins.SingletonPlugin):
 
     def get_helpers(self):
         return {'semre_create': semre_create}
+
 
